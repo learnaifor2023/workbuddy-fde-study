@@ -1,0 +1,2973 @@
+{
+  "version": "fde-cid-20261028-v1",
+  "title": "腾讯云人工智能前沿部署工程师 FDE",
+  "modules": [
+    [
+      "概览与方法论",
+      11.5
+    ],
+    [
+      "腾讯云 AI 体系矩阵",
+      8.5
+    ],
+    [
+      "人工智能工程",
+      10
+    ],
+    [
+      "WorkBuddy 上手实操",
+      10
+    ],
+    [
+      "企业后台与 WMA 配置",
+      10
+    ],
+    [
+      "进场：挖真需求",
+      10
+    ],
+    [
+      "交付：做成且验得动",
+      10
+    ],
+    [
+      "沉淀：组织资产",
+      10.5
+    ],
+    [
+      "FDE 养成计划",
+      10
+    ],
+    [
+      "安全治理与护栏",
+      9.5
+    ]
+  ],
+  "sources": {
+    "G": [
+      "官方考试指南：CID / TCCP",
+      "https://cloud.tencent.com/document/product/658/139487?lang=zh"
+    ],
+    "E": [
+      "官方认证详情与报名",
+      "https://cloud.tencent.com/edu/training/cert/detail?type=CID"
+    ],
+    "S": [
+      "官方15题模拟考试（30分钟）",
+      "https://cloud.tencent.com/edu/learning/exam-detail?examConfigId=5054802302208"
+    ],
+    "C01": [
+      "官方课程第1章：概览与方法论",
+      "https://cloud.tencent.com/edu/learning/course-4767-84813-84825"
+    ],
+    "C02": [
+      "官方课程第2章：腾讯云 AI 体系矩阵",
+      "https://cloud.tencent.com/edu/learning/course-4767-84814-84830"
+    ],
+    "C03": [
+      "官方课程第3章：人工智能工程",
+      "https://cloud.tencent.com/edu/learning/course-4767-84815-84836"
+    ],
+    "C04": [
+      "官方课程第4章：WorkBuddy 上手实操",
+      "https://cloud.tencent.com/edu/learning/course-4767-84816-84841"
+    ],
+    "C05": [
+      "官方课程第5章：企业后台与 WMA 配置",
+      "https://cloud.tencent.com/edu/learning/course-4767-84817-84847"
+    ],
+    "C06": [
+      "官方课程第6章：进场：挖真需求",
+      "https://cloud.tencent.com/edu/learning/course-4767-84818-84854"
+    ],
+    "C07": [
+      "官方课程第7章：交付：做成且验得动",
+      "https://cloud.tencent.com/edu/learning/course-4767-84819-84860"
+    ],
+    "C08": [
+      "官方课程第8章：沉淀：组织资产",
+      "https://cloud.tencent.com/edu/learning/course-4767-84820-84865"
+    ],
+    "C09": [
+      "官方课程第9章：FDE 养成计划",
+      "https://cloud.tencent.com/edu/learning/course-4767-84821-84872"
+    ],
+    "C10": [
+      "官方课程第10章：安全治理与护栏",
+      "https://cloud.tencent.com/edu/learning/course-4767-84822-84877"
+    ],
+    "C11": [
+      "官方课程第11章：CFO 财务结算审核",
+      "https://cloud.tencent.com/edu/learning/course-4767-84823-84885"
+    ],
+    "C12": [
+      "官方课程第12章：关键问题 FAQ",
+      "https://cloud.tencent.com/edu/learning/course-4767-84824-84894"
+    ]
+  },
+  "questions": [
+    {
+      "module": 1,
+      "type": "单选",
+      "stem": "甲团队交付系统后留下厚复盘，乙团队还留下了第二客户可调用的 Skill。哪项最能说明乙团队符合 FDE 机制？",
+      "options": [
+        "乙团队在售前阶段使用了 AI",
+        "客户价值之外形成了组织可复用能力",
+        "复盘材料比甲团队更少",
+        "乙团队全部人员都在现场工作"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "核心区别是客户结果与组织能力的双产出，地点和文档篇幅不能代替复用证据。",
+      "id": 1,
+      "sources": [
+        "C01"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 1,
+      "type": "单选",
+      "stem": "客户要求智能审核，工程师先判断真正痛点、风险边界和成功指标。这主要属于哪一能力侧？",
+      "options": [
+        "Echo",
+        "Runtime 运维",
+        "资源下发",
+        "Delta"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "Echo 侧负责方向、需求与价值判断；把方案配置、集成出来主要属于 Delta。",
+      "id": 2,
+      "sources": [
+        "C01"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 1,
+      "type": "单选",
+      "stem": "项目结束后只有一位工程师掌握全部技巧，调走后团队不能复制。最准确的判断是什么？",
+      "options": [
+        "这是 Delta 过强，与沉淀无关",
+        "只缺少一次客户满意度调查",
+        "个人经验增长尚未成为组织资产",
+        "只要工程师能力提升就已完成沉淀"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "知识依赖个人且不能交接复用，未达到课程要求的组织沉淀标准。",
+      "id": 3,
+      "sources": [
+        "C01"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 1,
+      "type": "单选",
+      "stem": "FDE 到现场只转发需求，业务含义在多轮转述中丢失，后方做完又大改。这对应哪个陷阱？",
+      "options": [
+        "最小权限",
+        "传话式 FDE",
+        "双向蒸馏",
+        "Land and Expand"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "传话式陷阱的关键是判断与执行反馈脱节，不是禁止后方团队参与工程支持。",
+      "id": 4,
+      "sources": [
+        "C01"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 1,
+      "type": "单选",
+      "stem": "主管只奖励按时结项和人天利用率，员工因此放弃复用资产整理。首要机制问题是什么？",
+      "options": [
+        "没有把所有人改称全栈工程师",
+        "考核错位，缺少沉淀与有效复用指标",
+        "Skill 文件还不够长",
+        "尚未采用更大的上下文窗口"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "考核影响行为，只看传统交付会挤压沉淀；应把组织能力增量纳入目标。",
+      "id": 5,
+      "sources": [
+        "C01"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 1,
+      "type": "单选",
+      "stem": "比较多个同类客户时，哪个指标更能验证 FDE 模式是否跑通？",
+      "options": [
+        "业务术语数量是否增加",
+        "在相当交付价值下单位现场投入是否下降",
+        "每次交付的汇报页数是否上升",
+        "投入的人数是否持续增加"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "现场投入随可比复用持续下降比数量型材料指标更有说服力。",
+      "id": 6,
+      "sources": [
+        "C01"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 1,
+      "type": "单选",
+      "stem": "一位行业专家不擅长编码，计划转 FDE。哪条路径更符合课程？",
+      "options": [
+        "强化 Echo，并能借平台或搭档亲手验证原型",
+        "只负责转述，由后方独立理解全部业务",
+        "放弃业务理解，先成为所有技术栈专家",
+        "用工具自动批准所有客户验收"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "FDE 不要求每人全栈，但要覆盖判断与执行，不能把不会编码当成从不动手的理由。",
+      "id": 7,
+      "sources": [
+        "C01"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 1,
+      "type": "单选",
+      "stem": "讨论 FDE 应放哪个部门时，最应先确定什么？",
+      "options": [
+        "必须统一隶属销售才算 FDE",
+        "客户交付与能力沉淀的责任、协作和考核",
+        "必须统一隶属研发才算 FDE",
+        "只按最近一个项目收入决定归属"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "组织形态有权衡，双目标及其责任机制比唯一部门名称更关键。",
+      "id": 8,
+      "sources": [
+        "C01"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 1,
+      "type": "多选",
+      "stem": "哪些产出可以作为 FDE 组织能力增量的证据？",
+      "options": [
+        "可复用连接器与接口契约",
+        "仅保存在工程师脑中的判断经验",
+        "跨项目验证过的 Skill",
+        "未验证且无授权就跨客户共享的评测集"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "跨项目验证的 Skill 与可复用连接器可形成组织资产；未验证或未授权共享不成立，个人记忆也尚未资产化。",
+      "id": 9,
+      "sources": [
+        "C01"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 1,
+      "type": "多选",
+      "stem": "关于 Echo 与 Delta，哪些说法正确？",
+      "options": [
+        "Delta 关注实现与集成质量",
+        "AI 执行更便宜后可以省略现场判断",
+        "是两种能力侧，不强制两个人",
+        "Echo 关注需求和路径判断"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "执行门槛降低不会消除业务判断，反而需要确认做的事情是否有价值。",
+      "id": 10,
+      "sources": [
+        "C01"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 1,
+      "type": "多选",
+      "stem": "哪些现象提示团队可能落入伪 FDE 或考核错位？",
+      "options": [
+        "交付之外同时考核有效复用",
+        "沉淀仅以文档数量计奖",
+        "客户系统可运行且能力跨项目复用",
+        "后续同类项目总是从零开始"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "从零重做和只奖励文档数量是风险信号；同时考核有效复用是正向机制。",
+      "id": 11,
+      "sources": [
+        "C01"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 1,
+      "type": "多选",
+      "stem": "建立更完整的 FDE 团队机制，可包含哪些措施？",
+      "options": [
+        "考核有效复用与交接上手成本",
+        "保持现场反馈与产品回流通道",
+        "为追求复用忽略客户当前交付",
+        "明确沉淀负责人和交付负责人"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "机制要同时服务客户价值和组织积累，不能以其中之一取代另一项。",
+      "id": 12,
+      "sources": [
+        "C01"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 2,
+      "type": "单选",
+      "stem": "运营团队要从已授权材料生成周报并复用岗位流程，首选哪个产品定位？",
+      "options": [
+        "仅使用模型训练平台",
+        "WorkBuddy",
+        "CodeBuddy",
+        "把 Miora 作为代码审查工具"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "该需求主要是业务岗位的知识与办公任务，WorkBuddy 定位最贴近。",
+      "id": 13,
+      "sources": [
+        "C02"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 2,
+      "type": "单选",
+      "stem": "研发团队希望在代码上下文中生成测试并辅助调试，哪项定位最匹配？",
+      "options": [
+        "Miora",
+        "企业成员邀请链接",
+        "单纯文档资料库",
+        "CodeBuddy"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "CodeBuddy 主要服务研发工作流；生成代码仍需 review 和测试。",
+      "id": 14,
+      "sources": [
+        "C02"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 2,
+      "type": "单选",
+      "stem": "客户需要定制多步骤 AI 应用，深度接 ERP 和内部 API，哪项最适合作为核心平台？",
+      "options": [
+        "单独使用视觉生成画布",
+        "仅更换登录入口",
+        "ADP",
+        "只靠专家头像配置"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "ADP 提供企业 AI 应用开发与编排能力；具体接入仍需确认数据和权限。",
+      "id": 15,
+      "sources": [
+        "C02"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 2,
+      "type": "单选",
+      "stem": "品牌团队要一套风格一致的海报、视频与界面原型，应优先评估什么？",
+      "options": [
+        "单独的数据库只读账号",
+        "CodeBuddy 的单元测试生成",
+        "只增大知识库 Top K",
+        "Miora"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Miora 的主要定位是多模态创意全案，不是研发测试或知识检索参数。",
+      "id": 16,
+      "sources": [
+        "C02"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 2,
+      "type": "单选",
+      "stem": "客户说“买了平台也用不好”，调查发现痛点尚未拆成可执行任务。主要卡在哪？",
+      "options": [
+        "理解和翻译需求的前两层",
+        "模型输出长度不够大",
+        "云端 Session 没有永不休眠",
+        "专家名字不够正式"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "落地四层先理解与翻译，再搭建与调优；未定义任务时盲目搭建容易跑偏。",
+      "id": 17,
+      "sources": [
+        "C02"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 2,
+      "type": "单选",
+      "stem": "要固化合同检查的步骤、规则和自检流程，最适合沉淀为哪类资产？",
+      "options": [
+        "一次性的 Session 标题",
+        "只含人设的专家头像",
+        "Skill",
+        "成员列表"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Skill 封装怎么做；资料库提供内容，连接器负责访问系统，专家打包岗位角色。",
+      "id": 18,
+      "sources": [
+        "C02"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 2,
+      "type": "单选",
+      "stem": "选型时“谁来用、做什么、跟什么打通”三问的主要价值是什么？",
+      "options": [
+        "免除后续评测与权限设计",
+        "保证任何场景只选一个产品",
+        "从用户、任务与集成约束确定产品组合",
+        "跳过业务需求直接按品牌购买"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "三问帮助建立有边界的选型依据，不意味着所有场景只能选单个工具。",
+      "id": 19,
+      "sources": [
+        "C02"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 2,
+      "type": "单选",
+      "stem": "团队每天自动跑报告后，问能否不再做质量评测。最恰当的回答是什么？",
+      "options": [
+        "只要报告生成成功就能替代验收",
+        "有定时触发即代表质量已通过",
+        "自动化解决触发，评测解决质量，仍须分别设计",
+        "自动化频率提高即可降低幻觉率到零"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "流程运行成功与内容业务正确是不同指标，触发层不能替代质检层。",
+      "id": 20,
+      "sources": [
+        "C02"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 2,
+      "type": "多选",
+      "stem": "下列产品定位哪些匹配？",
+      "options": [
+        "Miora：企业账号审计数据库",
+        "CodeBuddy：研发编码和测试辅助",
+        "WorkBuddy：办公任务与知识协作",
+        "ADP：仅负责通讯录邀请而不支持应用构建"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "WorkBuddy 与 CodeBuddy 的定位匹配；ADP 不仅是通讯录管理，Miora 也不以账号审计为主定位。",
+      "id": 21,
+      "sources": [
+        "C02"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 2,
+      "type": "多选",
+      "stem": "关于四类能力资产，哪些匹配正确？",
+      "options": [
+        "专家封装岗位人设及附属能力",
+        "资料库提供专业内容",
+        "Skill 只是专家的显示名称",
+        "连接器负责系统接入"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "Skill 描述方法与步骤，专家可组合技能、内容与展示信息。",
+      "id": 22,
+      "sources": [
+        "C02"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 2,
+      "type": "多选",
+      "stem": "从原型走向组织落地，还应处理哪些问题？",
+      "options": [
+        "业务任务和成功指标是否清晰",
+        "不收集反馈，只复制模板就自然持续改进",
+        "真实系统与权限能否接入",
+        "只要个人用得快就自然全员采纳"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "业务目标和真实接入是前提，后续还需反馈与调优；不会自然产生组织采纳。",
+      "id": 23,
+      "sources": [
+        "C02"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 2,
+      "type": "多选",
+      "stem": "关于“专家→助理→团队”路径，哪些理解合理？",
+      "options": [
+        "团队支持协作和资产复用",
+        "专家提供岗位能力",
+        "助理可承载对应的常驻执行",
+        "所有本地定时任务关闭电脑后仍会运行"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "云端托管与本地运行的条件不同，不能由产品递进关系推出所有任务离线仍运行。",
+      "id": 24,
+      "sources": [
+        "C02"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 3,
+      "type": "单选",
+      "stem": "“你很专业，帮我分析一下”输出不稳定。哪种修订最符合 Prompt 工程？",
+      "options": [
+        "补齐角色、任务、证据边界、示例和输出字段",
+        "把验收标准留给模型自行选择",
+        "连续重复“务必专业”十次",
+        "取消格式要求以免限制创造力"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "五要素把请求写成可执行规格，减少模型自行填补默认条件。",
+      "id": 25,
+      "sources": [
+        "C03"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 3,
+      "type": "单选",
+      "stem": "模型上下文将超限，最合理的处理是什么？",
+      "options": [
+        "删除所有系统约束以腾位置",
+        "塞入全量知识库再等待截断",
+        "只保留最近一句话而丢失任务目标",
+        "保留规则和关键证据，裁剪无关工具字段并摘要远期历史"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "上下文管理强调相关性、预算与可追溯证据，不能为了省量丢失关键约束。",
+      "id": 26,
+      "sources": [
+        "C03"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 3,
+      "type": "单选",
+      "stem": "Demo 接口偶尔超时就全流程崩溃，Harness 最明显缺少什么？",
+      "options": [
+        "更多专家头像",
+        "错误处理与失败兜底",
+        "把所有 API 开成管理员权限",
+        "更长的业务口号"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "应定义超时、重试边界、降级或转人工路径，扩大权限不能解决超时。",
+      "id": 27,
+      "sources": [
+        "C03"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 3,
+      "type": "单选",
+      "stem": "Agent 反复查相同日志且无新增信息，最需要哪个设计？",
+      "options": [
+        "只增加历史对话保留长度",
+        "把反思环节关闭以加快循环",
+        "不断追加同样的系统提示",
+        "步数、时限和连续错误等退出条件"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "Loop 必须有外部可执行的停止边界，避免空转与成本失控。",
+      "id": 28,
+      "sources": [
+        "C03"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 3,
+      "type": "单选",
+      "stem": "Agent 准备重启生产服务，人工审批长时间未到，合理默认是什么？",
+      "options": [
+        "超时后视为审批通过",
+        "改用另一个高权限凭据执行",
+        "保持暂停或拒绝执行，并按流程通知责任人",
+        "仅在事后周报中说明"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "高风险门禁要求明确确认，等待超时不等于获得授权。",
+      "id": 29,
+      "sources": [
+        "C03"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 3,
+      "type": "单选",
+      "stem": "MCP 在项目甲可用，在项目乙找不到配置，首先应查什么？",
+      "options": [
+        "把第三方全部数据开放给项目乙",
+        "立即重装所有企业成员账号",
+        "配置是否只在项目甲作用域内",
+        "模型是否需要更高温度"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "项目级与用户级范围不同，这类现象应先检查配置生效范围。",
+      "id": 30,
+      "sources": [
+        "C03"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 3,
+      "type": "单选",
+      "stem": "调用返回 403，令牌仍有效。哪项最值得优先排查？",
+      "options": [
+        "专家名称长度",
+        "上下文输出格式",
+        "必须立即换模型供应商",
+        "scope、账号业务权限或资源授权"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "403 常提示已识别身份但不允许访问，仍需结合具体服务错误详情判断。",
+      "id": 31,
+      "sources": [
+        "C03"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 3,
+      "type": "单选",
+      "stem": "无人值守任务要接企业系统，哪项表述最准确？",
+      "options": [
+        "所有 MCP 服务必须接受 PAT",
+        "预生成令牌无需轮换和撤销",
+        "依服务支持选服务身份、受管令牌或客户端凭证，并收敛权限",
+        "OAuth 2.1 在任何情况下都只能有人在场使用"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "身份、授权流程和协议版本要分开判断；入门口诀不能变成排他的协议定律。",
+      "id": 32,
+      "sources": [
+        "C03"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 3,
+      "type": "多选",
+      "stem": "Harness 交付五件套中包含哪些？",
+      "options": [
+        "只写一句安全提醒即可代替权限门禁",
+        "工具接入及错误处理",
+        "用人工宣传替代自动失败处理",
+        "输入输出 Schema 契约"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "契约、工具及错误处理属于 Harness；安全需要实际门禁和可观测，不能以口号替代。",
+      "id": 33,
+      "sources": [
+        "C03"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 3,
+      "type": "多选",
+      "stem": "哪些属于可执行的 Loop 边界？",
+      "options": [
+        "最大步数和连续错误上限",
+        "总耗时上限",
+        "高风险操作前人工关卡",
+        "要求模型永远尝试直到成功"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "无限尝试可能持续失败或超预算，边界应能强制停止或升级。",
+      "id": 34,
+      "sources": [
+        "C03"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 3,
+      "type": "多选",
+      "stem": "令牌管理应包含哪些措施？",
+      "options": [
+        "使用受管密钥存储",
+        "把令牌写入共享 Skill 正文供全员调试",
+        "不记录任何令牌使用证据以避免审计",
+        "定期轮换并能撤销"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "应安全存储、轮换、可撤销且可审计；既不能无审计，也不能公开令牌。",
+      "id": 35,
+      "sources": [
+        "C03"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 3,
+      "type": "多选",
+      "stem": "关于上下文裁剪，哪些做法合理？",
+      "options": [
+        "把关键证据只改写成无法回溯的断言",
+        "检索相关片段而非全库灌入",
+        "保留当前任务和系统规则",
+        "对与决策无关字段做裁剪"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "压缩应保留证据可追溯性，不能把失去来源的概括当原始事实。",
+      "id": 36,
+      "sources": [
+        "C03"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 4,
+      "type": "单选",
+      "stem": "第一次让 WorkBuddy 处理客户表格，哪条指令更利于可验收交付？",
+      "options": [
+        "先生成结论，数据以后补",
+        "你很厉害，随便做一份优秀分析",
+        "把未授权共享盘一起扫描以免漏资料",
+        "先检查授权目录中的字段、缺失和重复，再按确认口径统计"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "完整任务含数据范围、动作与验收条件；先体检可暴露真实工作量。",
+      "id": 37,
+      "sources": [
+        "C04"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 4,
+      "type": "单选",
+      "stem": "Skill 正文很完整，但始终不能自动匹配；手动点名可用。应优先修改哪里？",
+      "options": [
+        "description 中的业务词和触发场景",
+        "企业账号实名信息",
+        "把所有安全约束删除",
+        "专家头像的背景色"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "手动可用说明核心流程可能正常，自动匹配先看 description 是否贴近任务语义。",
+      "id": 38,
+      "sources": [
+        "C04"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 4,
+      "type": "单选",
+      "stem": "按本课程，自建 Skill 希望后续可由 WorkBuddy 修改，应检查哪个字段？",
+      "options": [
+        "default_allow: everyone",
+        "manifestVersion: false",
+        "request_id: none",
+        "agent_created: true"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "这是课程针对 WorkBuddy 自建技能的元信息要求，不应推广为所有 Agent 平台统一标准。",
+      "id": 39,
+      "sources": [
+        "C04"
+      ],
+      "level": "detail",
+      "origin": "detail",
+      "thirdPartyIds": [],
+      "revisionNote": "课程产品规则按2026-10-28核验；考前以对应官方课程与产品文档复核。"
+    },
+    {
+      "module": 4,
+      "type": "单选",
+      "stem": "要封装“招生咨询顾问”这一岗位角色，应如何组合？",
+      "options": [
+        "只把全部文件压成 zip 不写说明",
+        "仅提高每月积分额度",
+        "只改一个专家显示名称",
+        "人设、业务边界、附属技能与输出规范"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "专家需定义能做什么、如何做、如何输出，并挂接所需能力与资料。",
+      "id": 40,
+      "sources": [
+        "C04"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 4,
+      "type": "单选",
+      "stem": "企业专家已上传且进白名单，用户仍看不到；后台显示“仅保存”。下一步应确认什么？",
+      "options": [
+        "专家是否已启用并完成发布",
+        "移除知识库的全部引用来源",
+        "反复重写用户提问",
+        "把所有成员设为管理员"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "资源启用状态独立于下发策略，草稿不因配置白名单就自动发布。",
+      "id": 41,
+      "sources": [
+        "C04"
+      ],
+      "level": "detail",
+      "origin": "detail",
+      "thirdPartyIds": [],
+      "revisionNote": "课程产品规则按2026-10-28核验；考前以对应官方课程与产品文档复核。"
+    },
+    {
+      "module": 4,
+      "type": "单选",
+      "stem": "两个客户的任务上下文总混入对方资料，较合理的组织方式是什么？",
+      "options": [
+        "把两方资料统一开放",
+        "增加一次对话的历史长度",
+        "只在输出末尾加一句免责声明",
+        "按客户或场景分独立任务与授权资料范围"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "工作空间与任务隔离能减少上下文串用，仍应配置数据授权边界。",
+      "id": 42,
+      "sources": [
+        "C04"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 4,
+      "type": "单选",
+      "stem": "客户问自研 CRM 能否接入，尚未验证接口。哪项最符合交付纪律？",
+      "options": [
+        "先承诺写入，再让客户补权限",
+        "把无法确定的部分留到最终验收再说",
+        "先确认接口和鉴权，跑通最小样例再承诺范围",
+        "只要有网络就承诺全量接入"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "不确定性不向下游传递，接入能力应以具体接口和最小验证结果为依据。",
+      "id": 43,
+      "sources": [
+        "C04"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 4,
+      "type": "单选",
+      "stem": "将每周报告变成可靠自动化，除了定时还应首先明确什么？",
+      "options": [
+        "把所有报告自动外发给任意联系人",
+        "把本地任务一律称为云端常驻",
+        "只需一个固定触发时间",
+        "运行环境、数据凭据、失败通知和审批边界"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "触发时间只是一个条件，本地和云端的在线、凭据、失败处理及外发权限都需确认。",
+      "id": 44,
+      "sources": [
+        "C04"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 4,
+      "type": "多选",
+      "stem": "一个可复用 Skill 的定义通常需要哪些内容？",
+      "options": [
+        "把某客户真实密钥直接写入模板",
+        "输入输出与执行步骤",
+        "核心约束和验证全部让执行时临时猜测",
+        "适用场景与触发条件"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "Skill 应明确触发、输入输出、步骤、约束与验证，不能猜测，也不能内嵌共享密钥。",
+      "id": 45,
+      "sources": [
+        "C04"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 4,
+      "type": "多选",
+      "stem": "专家包交付前应做哪些检查？",
+      "options": [
+        "清理占位符并校验字段",
+        "只要能压缩成 zip 就跳过业务验证",
+        "写清无依据时的回复与溯源要求",
+        "验证附属技能与资料路径"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "打包格式合规不代表业务能力正确，仍须实际验证。",
+      "id": 46,
+      "sources": [
+        "C04"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 4,
+      "type": "多选",
+      "stem": "关于 MCP 配置范围，哪些表述正确？",
+      "options": [
+        "用户级适合跨项目共用配置",
+        "项目甲的配置在任意项目必然生效",
+        "项目级仅在对应项目生效",
+        "一处配置成功意味着全企业都完成下发"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "用户级和项目级作用域不同，项目甲的配置不自动在其他项目或整个企业生效。",
+      "id": 47,
+      "sources": [
+        "C04"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 4,
+      "type": "多选",
+      "stem": "四小时闭环演练中，哪些属于有效出口产物？",
+      "options": [
+        "场景描述和数据问题清单",
+        "一份只列产品宣传词的观后感",
+        "能重复运行的原型",
+        "可调用技能、专家与验证过的自动化"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "演练要求留下可检查产物，学习感想不能证明已跑通链路。",
+      "id": 48,
+      "sources": [
+        "C04"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 5,
+      "type": "单选",
+      "stem": "客户说“员工要用、管理员要管、系统凌晨要自己跑”，三个端如何匹配？",
+      "options": [
+        "WMA、客户端、企业后台",
+        "企业后台、WMA、客户端",
+        "客户端、企业后台、WMA",
+        "三种需求都只是知识库上传"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "三端分别承接员工交互、企业治理、云端托管执行。",
+      "id": 49,
+      "sources": [
+        "C05"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 5,
+      "type": "单选",
+      "stem": "数据明确不能离开客户内网，客户又有相应运维能力，应优先评估哪种课程部署形态？",
+      "options": [
+        "共享 VPC 旗舰版即可保证在客户机房",
+        "私有化企业版",
+        "先做完 SaaS 再问数据边界",
+        "只要名称带专享就等于本地部署"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "需先以硬性数据边界筛选形态；专享云隔离并不等于客户内网私有部署。",
+      "id": 50,
+      "sources": [
+        "C05"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 5,
+      "type": "单选",
+      "stem": "个人技能在自己电脑可用，同事看不到，最合理的解释是什么？",
+      "options": [
+        "技能必须改成网页才可共享",
+        "同事积分肯定不足",
+        "个人自定义不等于企业共享，需企业上传和下发",
+        "所有同事需要拿到作者的全部账号凭据"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "个人作用域与企业资源管理不同，应按企业包规范与权限流程发布。",
+      "id": 51,
+      "sources": [
+        "C05"
+      ],
+      "level": "detail",
+      "origin": "detail",
+      "thirdPartyIds": [],
+      "revisionNote": "课程产品规则按2026-10-28核验；考前以对应官方课程与产品文档复核。"
+    },
+    {
+      "module": 5,
+      "type": "单选",
+      "stem": "同一用户同时命中企业专家黑名单和白名单，按课程优先级结果是什么？",
+      "options": [
+        "黑名单优先，先拒绝",
+        "按最近一次登录时间选择",
+        "模型决定允许或拒绝",
+        "白名单永远覆盖黑名单"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "课程规则明确黑名单优先；其他情况下仍需检查默认策略与启用状态。",
+      "id": 52,
+      "sources": [
+        "C05"
+      ],
+      "level": "detail",
+      "origin": "detail",
+      "thirdPartyIds": [],
+      "revisionNote": "课程产品规则按2026-10-28核验；考前以对应官方课程与产品文档复核。"
+    },
+    {
+      "module": 5,
+      "type": "单选",
+      "stem": "知识库上传后仍在“索引中”，对话没有纳入其内容。应怎么做？",
+      "options": [
+        "只把 Score Threshold 调到最高",
+        "无论状态先全员启用",
+        "确认索引完成、可见权限，并按客户端流程 @ 引用",
+        "修改专家头像以刷新内容"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "可检索状态、授权与引用入口都需满足，调参数不能修复未完成索引。",
+      "id": 53,
+      "sources": [
+        "C05"
+      ],
+      "level": "detail",
+      "origin": "detail",
+      "thirdPartyIds": [],
+      "revisionNote": "课程产品规则按2026-10-28核验；考前以对应官方课程与产品文档复核。"
+    },
+    {
+      "module": 5,
+      "type": "单选",
+      "stem": "WMA 中 Agent、Runtime、Session 最准确的职责对应是什么？",
+      "options": [
+        "执行环境、账号余额、专家头像",
+        "能力定义、执行环境、独立会话上下文",
+        "文档模板、审计列表、下载目录",
+        "三者均表示同一个一次性文件"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "先记清三类对象的职责，不把课程不同段落的数量描述当绝对拓扑规则。",
+      "id": 54,
+      "sources": [
+        "C05"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 5,
+      "type": "单选",
+      "stem": "客户问“浏览模板和启动评测都会扣积分吗”，按课程应如何说明？",
+      "options": [
+        "浏览配置与真正执行不同，评测启动会产生相应消耗",
+        "只要进后台就必定扣同样积分",
+        "配置免费所以外部 API 和基础设施也永远免费",
+        "只有人工发起的任务才有消耗"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "积分看具体动作；管理配置与模型执行不同，也要区分平台积分和其他合同费用。",
+      "id": 55,
+      "sources": [
+        "C05"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 5,
+      "type": "单选",
+      "stem": "后台看板任务后立即无新增数据，课程提示存在同步时延。较合理做法是什么？",
+      "options": [
+        "按同步窗口复查并结合调用日志定位",
+        "直接判定员工完全没用过",
+        "把结果数字手工补到报告里",
+        "立即重建企业和全部用户"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "看板可能延迟，不能把暂无展示等同无调用，更不能伪造指标。",
+      "id": 56,
+      "sources": [
+        "C05"
+      ],
+      "level": "detail",
+      "origin": "detail",
+      "thirdPartyIds": [],
+      "revisionNote": "课程产品规则按2026-10-28核验；考前以对应官方课程与产品文档复核。"
+    },
+    {
+      "module": 5,
+      "type": "多选",
+      "stem": "企业能力下发应包含哪些步骤或验证？",
+      "options": [
+        "不验证目标成员，默认配置就是最终结果",
+        "配置成员或部门策略",
+        "上传与分类",
+        "上传成功就自动所有人可用"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "上传、分类和策略之后必须验证到人；不能把未验证的默认配置当作实际可用结果。",
+      "id": 57,
+      "sources": [
+        "C05"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 5,
+      "type": "多选",
+      "stem": "关于企业连接器权限，哪些正确？",
+      "options": [
+        "实际访问受第三方账号或授权范围限制",
+        "生产写操作仍应有最小权限和门禁",
+        "企业后台可见即自动拥有第三方所有数据",
+        "先确认服务支持的认证类型"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "平台可见性和第三方资源授权是不同层级。",
+      "id": 58,
+      "sources": [
+        "C05"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 5,
+      "type": "多选",
+      "stem": "按课程口径，哪些动作属于真正使用而非单纯配置？",
+      "options": [
+        "仅浏览专家头像和名称",
+        "仅浏览 Playbook 名称列表",
+        "引用知识库后检索汇总并生成回答",
+        "调用 Skill 执行任务"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "Skill 执行与知识引用后生成属于真正使用，浏览头像和模板名称列表属于配置或浏览。",
+      "id": 59,
+      "sources": [
+        "C05"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 5,
+      "type": "多选",
+      "stem": "选择部署方案时应核对哪些条件？",
+      "options": [
+        "试运行用量与预算告警",
+        "数据允许流向与隔离要求",
+        "只要预算高就一定选私有化",
+        "客户运维资源和责任划分"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "方案需满足边界并能维护，价格和预算不能单独决定部署形态。",
+      "id": 60,
+      "sources": [
+        "C05"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 6,
+      "type": "单选",
+      "stem": "客户开场说“我要 RAG 知识库”，FDE 首先应做什么？",
+      "options": [
+        "先把全量文件对所有人开放",
+        "直接按文档数量报价并开发",
+        "追问流程痛点、实际用户和量化成功标准",
+        "要求客户自行掌握向量算法再沟通"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "客户给的是方案名称，需先把真实业务问题和验收目标挖出来。",
+      "id": 61,
+      "sources": [
+        "C06"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 6,
+      "type": "单选",
+      "stem": "“哪一步出问题、谁在用、什么算成功”依次对应什么？",
+      "options": [
+        "产品名称、采购渠道、模型排名",
+        "流程节点、真实用户、成功指标",
+        "合同金额、GPU 型号、培训人数",
+        "数据格式、令牌长度、头像规格"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "三层下挖把笼统需求转成可设计和可验证的任务。",
+      "id": 62,
+      "sources": [
+        "C06"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 6,
+      "type": "单选",
+      "stem": "SOP 写得规范，但新人仍离不开老员工口头指导。最有效的下一步是什么？",
+      "options": [
+        "把 SOP 原样做成唯一规则后直接上线",
+        "跟一线走流程，追问最近异常并比较新老员工做法",
+        "以文档完整为由取消访谈",
+        "自动化所有绕过系统的做法"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "隐性流程常在实际处理和例外中出现，需验证有效性与合规性后显性化。",
+      "id": 63,
+      "sources": [
+        "C06"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 6,
+      "type": "单选",
+      "stem": "一线担心 AI 出错自己背责，哪种回应更有效？",
+      "options": [
+        "向员工保证模型不会出任何错",
+        "明确人机职责、复核门禁和可追溯机制，先试点验证",
+        "要求员工先贡献全部私人资源",
+        "只强调老板已经决定使用"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "担忧应以责任机制和可见收益化解，不能用无法验证的承诺替代。",
+      "id": 64,
+      "sources": [
+        "C06"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 6,
+      "type": "单选",
+      "stem": "试点组全是熟手，对照组全是新人，效率差距很大。主要问题是什么？",
+      "options": [
+        "对照组人数太少所以必定无效",
+        "只要数字漂亮就可全员推广",
+        "人员基础不匹配，难把差异归因于 AI",
+        "应删除对照组以避免争议"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "对照需尽量公平、口径一致，人员差异会干扰因果解释。",
+      "id": 65,
+      "sources": [
+        "C06"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 6,
+      "type": "单选",
+      "stem": "两个候选场景中，一个技术容易但业务无人关心，另一个痛点明确且有数据负责人。优先判断什么？",
+      "options": [
+        "优先做界面最漂亮的",
+        "只按专家市场现成模板数量选",
+        "先看业务价值，再评估实施可行性和阻力",
+        "只按最少代码量排序"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "场景六维先回答值不值得，再看能不能和先后顺序。",
+      "id": 66,
+      "sources": [
+        "C06"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 6,
+      "type": "单选",
+      "stem": "客户看过漂亮 Demo 后要求“以后都和这次一样”。FDE 应怎么做？",
+      "options": [
+        "把一次演示视为统计上完整验收",
+        "只要求客户不要问边界问题",
+        "转成明确样本、指标与阈值的验收约定，并说明真实环境边界",
+        "保证任何输入都达到同样效果"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Demo 是需求沟通工具，不能替代对真实分布的定量验证。",
+      "id": 67,
+      "sources": [
+        "C06"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 6,
+      "type": "单选",
+      "stem": "教育客户首次试点要选 AI 自动作出最终升学建议，最恰当的判断是什么？",
+      "options": [
+        "把原有人工判断从流程中彻底删去",
+        "按具体风险重审边界，不能因教育场景就省略专业终审",
+        "只需增加专家名字的权威感",
+        "教育属于高容错，因此全部可自动裁决"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "教育也存在高影响决策，应区分资料和草稿等辅助环节与终审责任。",
+      "id": 68,
+      "sources": [
+        "C06"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 6,
+      "type": "多选",
+      "stem": "进场访谈应尽量核实哪些信息？",
+      "options": [
+        "具体流程卡点与业务基线",
+        "成功指标永远留到最终验收再定",
+        "只要领导说“上 AI”就跳过数据摸底",
+        "实际用户和业务负责人"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "流程基线和真实用户需核实，成功指标也要前置；不能留到尾声或只凭上 AI 的口号。",
+      "id": 69,
+      "sources": [
+        "C06"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 6,
+      "type": "多选",
+      "stem": "哪些做法有助于发现隐性流程？",
+      "options": [
+        "比较新老员工的步骤差异",
+        "不加判断地固化所有绕行惯例",
+        "现场观察完整操作",
+        "追问最近一次异常怎么处理"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "观察发现只是开始，违规或低效惯例不应原样规模化。",
+      "id": 70,
+      "sources": [
+        "C06"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 6,
+      "type": "多选",
+      "stem": "破解一线抵触，哪些措施符合课程？",
+      "options": [
+        "分别对齐不同层级预期",
+        "先威胁不使用者扣绩效来保证真实采纳",
+        "用裁员威胁强制制造使用量",
+        "公平设计小范围对照试点"
+      ],
+      "answer": [
+        0,
+        3
+      ],
+      "explanation": "分层对齐与公平试点符合课程；威胁会扭曲使用数据，不能代替对本人有用的收益设计。",
+      "id": 71,
+      "sources": [
+        "C06"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 6,
+      "type": "多选",
+      "stem": "场景优先级中应考虑哪些维度？",
+      "options": [
+        "业务关注、痛点程度",
+        "仅看购买积分额度",
+        "技术可行性、流程阻力",
+        "数据基础、可量化程度"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "六维关注价值与可行性，积分额度不能代替需求优先级。",
+      "id": 72,
+      "sources": [
+        "C06"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 7,
+      "type": "单选",
+      "stem": "PEV 中 E 的核心含义是什么？",
+      "options": [
+        "Estimate：估算完即验收",
+        "Encode：把所有规则硬编码",
+        "Expand：先扩展全部部门",
+        "Evidence：真实数据和用户形成实证"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "E 阶段要在真实分布下拿证据，不是只让开发者跑精选样例。",
+      "id": 73,
+      "sources": [
+        "C07"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 7,
+      "type": "单选",
+      "stem": "原型阶段客户一眼指出方向不对，应该如何处理？",
+      "options": [
+        "把分歧当发现，回到问题定义修正原型",
+        "先开发更多功能覆盖分歧",
+        "避免让客户继续看以免影响验收",
+        "把反馈全部归因于用户不懂 AI"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "P 阶段的价值就是便宜地暴露分歧，早修正比后期返工更合理。",
+      "id": 74,
+      "sources": [
+        "C07"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 7,
+      "type": "单选",
+      "stem": "哪个指标更直接反映“采纳”而非仅模型效果？",
+      "options": [
+        "模型上下文长度",
+        "一次测试的准确率",
+        "试点第四周的持续使用与留存",
+        "系统创建了多少专家头像"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "采纳关注人是否持续使用；技术配置和单次模型分数不能替代。",
+      "id": 75,
+      "sources": [
+        "C07"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 7,
+      "type": "单选",
+      "stem": "知识库未覆盖的问题，系统总能编出完整答案，使拒答率达到零。应怎样评价？",
+      "options": [
+        "说明可以移除转人工入口",
+        "零拒答可能掩盖幻觉，需测无答案时的正确拒答",
+        "零拒答天然是最优验收结果",
+        "只要语气自信就视为有依据"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "应区分合理拒答和误拒，不能把总体拒答越低当越好。",
+      "id": 76,
+      "sources": [
+        "C07"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 7,
+      "type": "单选",
+      "stem": "项目 Demo 很好，但真实权限接不通、脏数据多且没人愿试。处于哪类典型卡点？",
+      "options": [
+        "L1 到 L2 的死亡谷",
+        "说明无需做任何用户调研",
+        "仅是专家名称不统一",
+        "L4 到上市融资阶段"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "原型向试点迁移要面对真实数据、权限与采纳，正是课程重点风险。",
+      "id": 77,
+      "sources": [
+        "C07"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 7,
+      "type": "单选",
+      "stem": "验收时准确率未达双方已确认门槛，最合理的动作是什么？",
+      "options": [
+        "修根因后复测，或经双方正式变更标准",
+        "把目标写低后声称原来就是如此",
+        "悄悄删掉失败样本使分数达标",
+        "以平均响应很快抵消所有合规失败"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "未达标应修复或正式变更，不能事后篡改规则或隐去证据。",
+      "id": 78,
+      "sources": [
+        "C07"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 7,
+      "type": "单选",
+      "stem": "试点中客户连续追加新场景，资源固定。哪条纪律最直接适用？",
+      "options": [
+        "暂时不记录新增以便快速推进",
+        "只要客户要求就全部同时加",
+        "把测试阶段压到零以补资源",
+        "新增需求换出原有范围或走明确变更"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "容量约束下需显式取舍，避免范围只增不减。",
+      "id": 79,
+      "sources": [
+        "C07"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 7,
+      "type": "单选",
+      "stem": "一个窄场景稳定达标，下一步扩展最合理的依据是什么？",
+      "options": [
+        "所有项目都必须马上达到 L4",
+        "可信实证、采纳、运维与复用条件都支持扩展",
+        "先全员铺开再补权限评测",
+        "只要负责人在演示时说“很智能”"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "Land and Expand 由深度可用和信任驱动，扩展不是自动发生的下一步。",
+      "id": 80,
+      "sources": [
+        "C07"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 7,
+      "type": "多选",
+      "stem": "四维验收框架包含哪些方面？",
+      "options": [
+        "采纳",
+        "效果与效率",
+        "全部用购买席位数代替合规评估",
+        "只记录上线日期即可覆盖四维"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "效果、效率、采纳、合规是四维；购买席位与上线日期都不能代替合规和真实使用证据。",
+      "id": 81,
+      "sources": [
+        "C07"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 7,
+      "type": "多选",
+      "stem": "合规验收的兜底条款应包含什么？",
+      "options": [
+        "回答可追溯到证据",
+        "无明确依据时拒答或转人工",
+        "用户能带上下文转人工",
+        "所有回答必须强行给确定结论"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "兜底防止无证据断言并保证人能接管，而不是逼模型对一切作答。",
+      "id": 82,
+      "sources": [
+        "C07"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 7,
+      "type": "多选",
+      "stem": "穿越 L1 到 L2 时，哪些动作有帮助？",
+      "options": [
+        "只用开发者精修的演示输入",
+        "只找开发者自己充当全部真实用户",
+        "优先处理系统权限与接口",
+        "早接真实授权数据"
+      ],
+      "answer": [
+        2,
+        3
+      ],
+      "explanation": "真实数据和权限打通很关键，还需真正的一线种子用户；开发者或精修输入不能覆盖真实分布。",
+      "id": 83,
+      "sources": [
+        "C07"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 7,
+      "type": "多选",
+      "stem": "哪些符合范围控制四纪律？",
+      "options": [
+        "任何新增场景都无条件同时做",
+        "澄清当前不确定性再向后推进",
+        "一次聚焦一个可衡量问题",
+        "先把窄场景做深再扩展"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "新增范围必须有取舍或变更，不能承诺无限容量。",
+      "id": 84,
+      "sources": [
+        "C07"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 8,
+      "type": "单选",
+      "stem": "一份总结只有原项目组看得懂。要把它改成资产，首先应做什么？",
+      "options": [
+        "抽离上下文，写清通用触发、输入输出和步骤，并跨场景验证",
+        "只把文件名改成“行业 Skill”",
+        "继续增加项目会议时间线",
+        "复制到更多个人聊天记录里"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "能被未参与者调用且经第二场景验证，才有可复用资产的实质。",
+      "id": 85,
+      "sources": [
+        "C08"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 8,
+      "type": "单选",
+      "stem": "双向蒸馏的两个方向是什么？",
+      "options": [
+        "技术团队与财务团队互换账号",
+        "线上训练与线下考试",
+        "客户持续使用的操作资产与组织跨项目能力资产",
+        "一个 PDF 版与一个 Word 版"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "双向指受益与复用方向，不是导出格式的数量。",
+      "id": 86,
+      "sources": [
+        "C08"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 8,
+      "type": "单选",
+      "stem": "客户 A 的专属字段映射和私有业务阈值，应放在哪里更合理？",
+      "options": [
+        "写死在所有客户共用的 Skill 核心流程",
+        "直接公开在技能市场",
+        "混入无来源的 AI 推断",
+        "隔离的客户配置或参数层"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "共性方法与客户特化分层，既提高复用又防止数据串用。",
+      "id": 87,
+      "sources": [
+        "C08"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 8,
+      "type": "单选",
+      "stem": "没有客户证据的模型结论，按三态溯源应如何标注？",
+      "options": [
+        "AI 推断，并说明缺少客户侧实证",
+        "接口实证，即使未调任何接口",
+        "知识库实证，即使没有原文",
+        "删除来源字段使读者无法区分"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "三态核心是诚实区分证据类型，不能靠流畅语气冒充事实。",
+      "id": 88,
+      "sources": [
+        "C08"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 8,
+      "type": "单选",
+      "stem": "一个 Skill 在首个客户顺利运行，能否直接宣布沉淀完成？",
+      "options": [
+        "还需在第二个相似场景使用并修正后验证通用性",
+        "首客户满意即永远完成",
+        "只要进共享目录就不需实际调用",
+        "文件超过一千行就算完成"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "课程用第二场景验证区分经验草稿与可复用资产。",
+      "id": 89,
+      "sources": [
+        "C08"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 8,
+      "type": "单选",
+      "stem": "团队按 Skill 文件数量奖励，产出很多却没人调用。更应改成什么指标？",
+      "options": [
+        "只按上传日期先后排名",
+        "质量评审、被有效复用及使用反馈",
+        "只按 description 字数计奖",
+        "仅增加每月最低文件数"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "数量激励可能制造草稿，价值应看可用性和复用效果。",
+      "id": 90,
+      "sources": [
+        "C08"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 8,
+      "type": "单选",
+      "stem": "一线担心交出经验后贡献被抹去，信任四问中最直接对应哪项？",
+      "options": [
+        "贡献：署名与来源可追溯",
+        "格式：PDF 还是 HTML",
+        "网络：能否访问 443",
+        "时延：是否小于三秒"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "贡献、收益、边界、安全感是机制问题，此处需解决贡献被认可与溯源。",
+      "id": 91,
+      "sources": [
+        "C08"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 8,
+      "type": "单选",
+      "stem": "FDE 向客户承诺某效果，但从未用真实样本验证，违反哪条红线？",
+      "options": [
+        "不承诺未验证效果",
+        "不能采用任何假设",
+        "必须使用同一种模型",
+        "必须共享所有内部模板"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "可以提出待验证假设，但不能把假设包装成已证实的效果承诺。",
+      "id": 92,
+      "sources": [
+        "C08"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 8,
+      "type": "多选",
+      "stem": "哪些内容应在共用 Skill 与客户配置之间分层？",
+      "options": [
+        "客户敏感信息默认向所有同类项目开放",
+        "客户字段映射留配置",
+        "把客户密钥写死在公共步骤",
+        "通用任务步骤进 Skill"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "通用步骤进 Skill，字段等留配置，敏感信息必须隔离；不能跨客户默认开放或硬编码密钥。",
+      "id": 93,
+      "sources": [
+        "C08"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 8,
+      "type": "多选",
+      "stem": "哪些符合三态溯源？",
+      "options": [
+        "接口结论保留调用及时间证据",
+        "无直接客户证据的推断明确标注",
+        "文档结论可点回相应原文",
+        "AI 推断只要看起来合理就标接口实证"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "有推理不等于有接口事实，来源类别必须真实。",
+      "id": 94,
+      "sources": [
+        "C08"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 8,
+      "type": "多选",
+      "stem": "课程的四条职业红线包括哪些？",
+      "options": [
+        "未验证的效果只要语气自信就可承诺",
+        "不碰未授权数据",
+        "不替客户终审、不隐藏失败",
+        "任何场景必须强制实现零拒答"
+      ],
+      "answer": [
+        1,
+        2
+      ],
+      "explanation": "前三项中的前两项已包含数据、终审、失败三条红线；此外也不能承诺未验证效果，且不能强制零拒答。",
+      "id": 95,
+      "sources": [
+        "C08"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 8,
+      "type": "多选",
+      "stem": "让沉淀成为可持续机制，哪些设计合理？",
+      "options": [
+        "先反哺贡献者可见收益",
+        "保留作者和来源",
+        "限制到岗位方法并让贡献者参与校验",
+        "只索取全部经验而不解释用途与边界"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "这些分别回应贡献、收益、边界、安全感；强行索取会破坏信任。",
+      "id": 96,
+      "sources": [
+        "C08"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 9,
+      "type": "单选",
+      "stem": "12 周计划中，“练习就是交付物”主要指什么？",
+      "options": [
+        "练习只需做完客观选择题",
+        "不用运行，只保留课堂截图",
+        "练习可以替代客户最终签字",
+        "练习应成为真实项目可用的初稿或片段"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "计划把学习绑定真实产出，不能只停在知识输入。",
+      "id": 97,
+      "sources": [
+        "C09"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 9,
+      "type": "单选",
+      "stem": "项目下周进入方案评审，原课表却仍在讲立项。应如何安排？",
+      "options": [
+        "按项目里程碑调整培训内容",
+        "要求客户项目完全服从固定课表",
+        "取消所有阶段交付物",
+        "跳过方案评审直接开发"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "培训跟着项目走，阶段目的不能因为课表顺序而丢失。",
+      "id": 98,
+      "sources": [
+        "C09"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 9,
+      "type": "单选",
+      "stem": "课程四阶段的正确顺序是什么？",
+      "options": [
+        "方案设计、发布全部数据、立项、终审自动化",
+        "立项、方案设计、开发推进、项目管理",
+        "开发推进、立项、项目管理、方案设计",
+        "项目管理、开发推进、方案设计、立项"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "先定义值得做的事，再设计与实现，最后复盘并沉淀为组织能力。",
+      "id": 99,
+      "sources": [
+        "C09"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 9,
+      "type": "单选",
+      "stem": "W3 的 Gate 1 最应检查什么？",
+      "options": [
+        "下一年的所有场景都已编码",
+        "Logo、头像与发布配色",
+        "真需求、量化业务价值和风险假设",
+        "最终全量生产性能已通过"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Gate 1 是立项准入，不把后续全部工程任务当成此时唯一出口。",
+      "id": 100,
+      "sources": [
+        "C09"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 9,
+      "type": "单选",
+      "stem": "W6 的 Gate 2 通过，能够说明什么？",
+      "options": [
+        "全部业务假设已被线上实证证明",
+        "PRD、MVP 和异常兜底等具备进入开发的条件",
+        "不需要再做 POC",
+        "后面全部版本可自动上线"
+      ],
+      "answer": [
+        1
+      ],
+      "explanation": "文档和方案可执行不等于真实业务效果已验证，仍需 POC 与评测。",
+      "id": 101,
+      "sources": [
+        "C09"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 9,
+      "type": "单选",
+      "stem": "评审技能输出“建议通过”，由谁作最终 Go/No-Go？",
+      "options": [
+        "由随机评分决定",
+        "只由文档字数决定",
+        "教练或承担责任的人结合证据裁决",
+        "模型自动签字并承担法律后果"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "工具提供结构化意见，终审责任不转移给模型。",
+      "id": 102,
+      "sources": [
+        "C09"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 9,
+      "type": "单选",
+      "stem": "W12 只有代码归档，没有方法回灌和组织资产包，Gate 4 应如何处理？",
+      "options": [
+        "删除所有失败记录以便结业",
+        "代码存在即代表组织沉淀完整",
+        "补齐复盘与能力沉淀后再判断通过",
+        "把个人电脑目录改名就算企业资产"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "Gate 4 不止看代码，还看验收、具体复盘和可复用能力回流。",
+      "id": 103,
+      "sources": [
+        "C09"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 9,
+      "type": "单选",
+      "stem": "企业后台能自动跑评测，是否意味着项目成员无需懂评测设计？",
+      "options": [
+        "能，平台会自动知道所有业务标准",
+        "能，只要模型参数最大",
+        "不能，但只需把题目全部给模型背熟",
+        "不能，执行可托管，样本和指标方法仍需人掌握"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "产品按钮提供执行能力，不能替代对覆盖、标注、独立性和通过规则的设计。",
+      "id": 104,
+      "sources": [
+        "C09"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 9,
+      "type": "多选",
+      "stem": "Gate 2 的可执行 PRD 应包含哪些要点？",
+      "options": [
+        "AI 不确定性的展示或说明",
+        "验收口径留待上线后随意补写",
+        "异常路径与人工兜底",
+        "只写“系统必须足够智能”"
+      ],
+      "answer": [
+        0,
+        2
+      ],
+      "explanation": "PRD 需说明不确定性与兜底，且前置验收评测标准，不能只写智能愿景或事后随意补。",
+      "id": 105,
+      "sources": [
+        "C09"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 9,
+      "type": "多选",
+      "stem": "Gate 3 的证据应包含哪些？",
+      "options": [
+        "真正可运行的 Demo",
+        "由人决定的迭代优先级",
+        "仅一段“快好了”的进度说明",
+        "核心假设的验证结果"
+      ],
+      "answer": [
+        0,
+        1,
+        3
+      ],
+      "explanation": "POC 定稿要有运行和验证证据，不能只靠主观进度承诺。",
+      "id": 106,
+      "sources": [
+        "C09"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 9,
+      "type": "多选",
+      "stem": "教练闭环包括哪些动作？",
+      "options": [
+        "阶段末 Gate 只做自动评分不设人工终审",
+        "课前检查准备条件",
+        "全部交付物由模型无人审核放行",
+        "课中观察并及时纠偏"
+      ],
+      "answer": [
+        1,
+        3
+      ],
+      "explanation": "课前准备与课中纠偏属于闭环；课后和阶段末也需有人负责评审，不能无人放行。",
+      "id": 107,
+      "sources": [
+        "C09"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 9,
+      "type": "多选",
+      "stem": "关于培养计划与工具边界，哪些理解正确？",
+      "options": [
+        "工具生成相关方地图就等于解决了所有组织阻力",
+        "AI Coding 后仍要审查和测试",
+        "阶段可以协调重叠但不应跳过关键目的",
+        "12 周是课程基准节奏，可结合项目调整"
+      ],
+      "answer": [
+        1,
+        2,
+        3
+      ],
+      "explanation": "地图只是辅助产物，组织关系与责任协商仍依赖人。",
+      "id": 108,
+      "sources": [
+        "C09"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 10,
+      "type": "单选",
+      "stem": "约束三层模型中的“过程层”主要解决什么？",
+      "options": [
+        "日志、评测和责任留痕是否充分",
+        "只负责模型参数规模",
+        "仅定义视觉配色",
+        "只记录使用者是否下载客户端"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "数据层管进出，能力层管能不能，过程层管留痕与是否达到准入标准。",
+      "id": 109,
+      "sources": [
+        "C10"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 10,
+      "type": "单选",
+      "stem": "在 Prompt 写“禁止访问工资表”，但数据库仍使用全库管理员账号。问题是什么？",
+      "options": [
+        "加入更多 Few-shot 即可保证安全",
+        "提示词够长就能消除所有越权",
+        "文字约束不能替代实际最小权限",
+        "只要运行在内网就无需改权限"
+      ],
+      "answer": [
+        2
+      ],
+      "explanation": "应在账号、数据与工具执行层收紧权限，不能只靠模型服从文字。",
+      "id": 110,
+      "sources": [
+        "C10"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 10,
+      "type": "单选",
+      "stem": "一次错误结算要还原输入、工具调用和输出，日志最关键的串联字段是什么？",
+      "options": [
+        "文件压缩包大小",
+        "随机更换的专家显示名",
+        "仅页面主题色",
+        "统一 request_id 或同等关联标识"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "统一关联标识把一次请求各阶段串成因果链，便于追溯版本和审批。",
+      "id": 111,
+      "sources": [
+        "C10"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 10,
+      "type": "单选",
+      "stem": "工具日志完整记录了明文身份证号并全员可看，应如何改进？",
+      "options": [
+        "只缩短专家回答长度",
+        "删除所有日志且不留审计",
+        "为了审计一律公开全部原始数据",
+        "敏感字段脱敏、限权或加密隔离"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "日志自身也是数据资产与泄露面，需在可追溯与最小必要之间设计保护。",
+      "id": 112,
+      "sources": [
+        "C10"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 10,
+      "type": "单选",
+      "stem": "系统只在开发时见过的样本上得高分，能否据此放心上线？",
+      "options": [
+        "能，见过样本等于适用所有分布",
+        "不能，因此应删除所有评测功能",
+        "能，只要平均延迟足够低",
+        "不能，需独立留出与覆盖边界的评测，并做回归"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "样本污染会造成虚高分数，回归与泛化评估承担不同职责。",
+      "id": 113,
+      "sources": [
+        "C10"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 10,
+      "type": "单选",
+      "stem": "提示词护栏、工具护栏、连接器护栏分别在哪检查更准确？",
+      "options": [
+        "全都只在购买积分时",
+        "全都只在最终回答后",
+        "全都只在人工投诉后",
+        "模型输入前、工具执行前、访问外部系统时"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "三类按检查位置分工，不能只在事后检查来替代动作前门禁。",
+      "id": 114,
+      "sources": [
+        "C10"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 10,
+      "type": "单选",
+      "stem": "CFO 场景冷启动为什么先做人机平行评测？",
+      "options": [
+        "保持人工线上裁决，以同样输入比较分歧并积累证据",
+        "为了立即让 Agent 自动支付所有单据",
+        "为了证明历史人工结论永不出错",
+        "为了省掉所有规则版本记录"
+      ],
+      "answer": [
+        0
+      ],
+      "explanation": "先证明再放权；分歧由证据和专家复核，不机械认定人或模型必然正确。",
+      "id": 115,
+      "sources": [
+        "C11",
+        "C10"
+      ],
+      "level": "case",
+      "origin": "case",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 10,
+      "type": "单选",
+      "stem": "新版本修复了部分审核错误，何时才适合受控发布？",
+      "options": [
+        "候选生成完成就自动覆盖生产",
+        "只要最新一条示例表现变好",
+        "把所有失败样本从数据集中移走后",
+        "冻结样本回放、影响与成本评审通过，并具备回滚和批准记录"
+      ],
+      "answer": [
+        3
+      ],
+      "explanation": "候选不是批准版，应验证修复与回归、成本和门禁后发布。",
+      "id": 116,
+      "sources": [
+        "C11",
+        "C10"
+      ],
+      "level": "case",
+      "origin": "case",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 10,
+      "type": "多选",
+      "stem": "上线前八问中应核实哪些内容？",
+      "options": [
+        "数据去向和最小授权",
+        "不可逆动作人工门禁与终审留痕",
+        "只有发布页面美观就能忽略其余条件",
+        "缺少日志和评测也可直接正式上线"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "数据、权限、门禁与终审是上线必查项，日志评测同样必需，页面好看不能豁免。",
+      "id": 117,
+      "sources": [
+        "C10"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 10,
+      "type": "多选",
+      "stem": "人工兜底可以布置在哪些位置？",
+      "options": [
+        "入口缺材料时补信息或拒答",
+        "出口高风险结论前人工确认",
+        "过程连续失败时停止并升级",
+        "等待人工超时后默认为同意"
+      ],
+      "answer": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "入口、过程、出口都可设计兜底，高风险审批超时不应自动放行。",
+      "id": 118,
+      "sources": [
+        "C10"
+      ],
+      "level": "core",
+      "origin": "core",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 10,
+      "type": "多选",
+      "stem": "关于 CFO 审核案例，哪些做法符合“先证明，再放权”？",
+      "options": [
+        "保留输入、附件、规则版本和运行轨迹",
+        "把人机分歧送专家复核",
+        "把历史人工通过结论无条件当作永远正确的标签",
+        "只要人机结论一致就自动跳过发布审批"
+      ],
+      "answer": [
+        0,
+        1
+      ],
+      "explanation": "应保留证据与版本并复核分歧；一致性不能替代正确性验证及发布审批。",
+      "id": 119,
+      "sources": [
+        "C11",
+        "C10"
+      ],
+      "level": "case",
+      "origin": "case",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    },
+    {
+      "module": 10,
+      "type": "多选",
+      "stem": "哪些内容能作为审核案例的跨场景沉淀？",
+      "options": [
+        "反馈、候选评审及发布门禁机制",
+        "其他客户未授权的完整财务附件",
+        "脱敏的采集契约与评测回放流程",
+        "通用 OCR 抽取和证据展示模块"
+      ],
+      "answer": [
+        0,
+        2,
+        3
+      ],
+      "explanation": "复用通用方法与受授权资产，不能把客户私有原始材料跨域共享。",
+      "id": 120,
+      "sources": [
+        "C11",
+        "C10"
+      ],
+      "level": "case",
+      "origin": "case",
+      "thirdPartyIds": [],
+      "revisionNote": ""
+    }
+  ],
+  "audit": [],
+  "stats": {
+    "total": 120,
+    "original": 120,
+    "added": 0,
+    "sourceReviewed": 0
+  },
+  "exam": {
+    "minutes": 120,
+    "single": 40,
+    "multi": 20,
+    "singlePoints": 1.5,
+    "multiPoints": 2,
+    "passScore": 70,
+    "singleQuota": [
+      5,
+      3,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      4,
+      5
+    ],
+    "multiQuota": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      2,
+      1
+    ]
+  }
+}
